@@ -1,3 +1,117 @@
-html{
-    font-size: 16px;
+body{
+    /* width: 1440px;
+    height: 5095px; */
+    background-color:  #FFFFFF;    ;
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    width: 1240px;
+    height: 50px;
+    top: 50px;
+    left: 100px;
+
+}
+
+/* Style the logo */
+.logo {
+    font-size: 24px;
+}
+
+/* Style the menu items */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 15px;
+
+}
+
+.menu a {
+    color: #234CAD;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px; /* 161.111% */
+    text-decoration: none;
+    color: #234CAD;
+}
+
+/* Style the user actions (login and signup buttons) */
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    border-radius: 25px;
+    border: 2px solid #234CAD;  
+    background-color: #F2F6FF;
+    color: #000; 
+    border: 1px solid #0074D9; /* Tambahkan garis tepi biru */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* transition: background-color 0.5s, color 0.4s; */
+    border-radius: 25px; 
+}
+.signup-btn {
+    background-color: #F2F6FF;
+    /* color: #000; Ubah warna teks sesuai kebutuhan  */
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #ffffff; /* Tambahkan garis tepi biru */
+    /* transition: background-color 0.5s, color 0.4s; */
+    border-radius: 25px; 
+}
+
+.login-btn:active, .signup-btn:active {
+    border: 1px solid #0074D9; /* Tambahkan garis tepi biru */
+   
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .user-actions {
+        margin-left: auto;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .menu-toggle.active + .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background-color: #333;
+    }
 }
