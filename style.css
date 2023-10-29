@@ -3,10 +3,6 @@
     --color-2: #F2F6FF;
 }
 
-html{
-    font-size: 16px;
-}
-
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #FFFFFF;
@@ -15,10 +11,11 @@ body {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* header */
-header {
+/* navbar */
+nav {
     /* padding: 0 20px; */
     width: 1240px;
     height: 50px;
@@ -27,51 +24,39 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    z-index: 1;
+    position: relative;
 }
-.pattern {
-    background-color: var(--color-2);
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.hamburger-icon {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
     cursor: pointer;
 }
-.pattern:hover {
-    border: 1px solid var(--color-1);
-    background-color: #FFFFFF;
-}
-.pattern-line {
-    width: 20px;
-    height: 2px;
-    background-color: var(--color-1);
-    margin: 2px 0;
-}
-.nav-center ul {
-    width: 180px;
+.menu ul {
+    width: 170px;
     list-style: none;
     padding: 0;
     display: flex;
 }
-.nav-center li {
-    margin: 0 29px;
+.menu li {
+    margin: 0 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 29px;
     letter-spacing: 0;
     text-align: left;
 }
-.nav-center a {
+.menu a {
     text-decoration: none;
     color: var(--color-1);
 }
-.nav-right .button {
+.action {
     display: flex;
 }
-.nav-right .button a {
+.action button {
+    width: 135px;
+    height: 50px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0;
@@ -79,22 +64,238 @@ header {
     text-decoration: none;
     color: var(--color-1);
     margin-left: 20px;
-    padding: 5px 35px;
+    padding: 5px 0;
+    cursor: pointer;
 }
-.button-login {
-    border: 1px solid var(--color-1);
-    border-radius: 50px;
+.btn-login {
+    background-color: #FFFFFF;
+    border: 2px solid var(--color-1);
+    border-radius: 32.5px;
 }
-.button-login:hover {
-    border: 1px solid #FFFFFF;
-}
-.button-signup {
-    border: 1px solid var(--color-2);
-    border-radius: 20px;
+.btn-login:hover {
     background-color: var(--color-2);
 }
-.button-signup:hover {
-    border: 1px solid #FFFFFF;
-    border-radius: 20px;
+.btn-signup {
+    border: none;
+    border-radius: 32.5px;
+    background-color: var(--color-2);
+}
+
+/* Pricing section */
+.pricing {
+    width: 1240px;
+    height: 588px;
+    position: relative;
+    top: 158px;
+    left: 100px;
+    /* background-color: var(--color-2);
+    border-radius: 60px; */
+    padding: 40px;
+}
+.pricing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.pricing h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-1);
+    margin-bottom: 20px;
+}
+.p {
+    width: 365px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-1);
+    margin-bottom: 30px;
+}
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.plan-1 {
+    background-color: var(--color-2);
+    width: 380px;
+    height: 380px;
+    border-radius: 60px;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+.plan-2 {
     background-color: #FFFFFF;
+    width: 380px;
+    height: 380px;
+    border: 3px solid var(--color-1);
+    border-radius: 60px;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+.plan-1 h5 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-1);
+    margin: 30px;
+}
+.plan-1 h4 {
+    height: 48px;
+    margin-top: 10px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-1);
+}
+.plan-1 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-1);
+    margin: 10px;
+}
+.plan-2 h5 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-1);
+    margin: 30px;
+}
+.plan-2 h4 {
+    height: 48px;
+    margin-top: 10px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-1);
+}
+.plan-2 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-1);
+    margin: 10px;
+}
+.button-1 {
+    background-color: #FFFFFF;
+    color: var(--color-1);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 15.5px 67.7px;
+    border: none;
+    border-radius: 32.5px;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.button-2 {
+    background-color: #FFFFFF;
+    color: var(--color-1);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 15.5px 67.7px;
+    border-radius: 32.5px;
+    border: 3px solid var(--color-1);
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.button-2:hover {
+    background-color: var(--color-2);
+}
+
+/* contact section */
+.contact {
+    width: 1240px;
+    height: 383px;
+    position: relative;
+    top: 158px;
+    left: 100px;
+    background-color: var(--color-2);
+    margin-top: 200px;
+    margin-bottom: 500px;
+    border-radius: 60px;
+}
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+.contact h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--color-1);
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.contact p {
+    width: 348px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--color-1);
+    margin-bottom: 30px;
+}
+.email-form {
+    width: 500px;
+    height: 65px;
+    top: 243px;
+    left: 370px;
+    position: absolute;
+}
+.email-form .submit-icon {
+    position: absolute;
+    right: 10px;
+    top: 54%;
+    transform: translateY(-50%);
+}
+.email-form input {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+}
+.email-form input::placeholder {
+    color: var(--color-1);
 }
