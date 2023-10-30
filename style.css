@@ -1,3 +1,266 @@
-html{
-    font-size: 16px;
+:root {
+  --color-1: #234cad;
+  --color-2: #f2f6ff;
+  --color-3: #ffffff;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+nav {
+  /* padding: 0 20px; */
+  width: 1240px;
+  height: 50px;
+  top: 50px;
+  left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.hamburger-icon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.menu ul {
+  width: 170px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.menu li {
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.menu a {
+  text-decoration: none;
+  color: var(--color-1);
+}
+.action {
+  display: flex;
+}
+.action button {
+  width: 135px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-1);
+  margin-left: 20px;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.btn-login {
+  background-color: #ffffff;
+  border: 2px solid var(--color-1);
+  border-radius: 32.5px;
+}
+.btn-login:hover {
+  background-color: var(--color-2);
+}
+.btn-signup {
+  border: none;
+  border-radius: 32.5px;
+  background-color: var(--color-2);
+}
+
+/*Product Features*/
+/*Text-center*/
+.product-text-center {
+  width: 1240px;
+  height: 908px;
+  top: 571px;
+  left: 100px;
+  padding: 0px, 0px, 50px, 0px;
+  position: relative;
+}
+
+.product-text-center .main-title {
+  width: 723px;
+  height: 56px;
+  left: 259px;
+  font-family: Nunito;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--color-1);
+  position: relative;
+}
+
+.product-text-center .body-text {
+  width: 425px;
+  height: 52px;
+  top: 81px;
+  left: 408px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--color-1);
+  position: relative;
+}
+
+.product-text-center .content {
+  width: 1240px;
+  height: 575px;
+  top: 233px;
+  position: relative;
+  background-color: var(--color-2);
+}
+
+.card-1 {
+  width: 276px;
+  height: 160px;
+  top: 155px;
+  left: 482px;
+  position: relative;
+  background-color: var(--color-3);
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 47px 20px 20px;
+}
+
+.card-1 ::shadow {
+  width: 376px;
+  height: 210px;
+  top: 388px;
+  left: 432px;
+  opacity: 10%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+}
+
+.card-1 .calendar-icon {
+  width: 60px;
+  height: 60px;
+  top: 408px;
+  left: 502px;
+  border: 2px solid var(--color-1);
+  border-radius: 50%;
+}
+
+.card-1 .calendar-icon img {
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+  margin-left: 18px;
+}
+
+.card-1 .text-content {
+  width: 129px;
+  height: 45px;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.card-1 .text-content h3 {
+  width: 106px;
+  height: 21px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.card-1 .text-content p {
+  width: 129px;
+  height: 21px;
+  top: 24px;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.card-1 .meeting-participan {
+  width: 130px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.card-2 {
+  width: 350px;
+  height: 100px;
+  top: 0px;
+  left: 783px;
+  background-color: var(--color-3);
+  border-radius: 30px;
+  display: flex;
+  padding: 24px 97px 23px 20px;
+  position: relative;
+}
+
+.card-2 ::shadow {
+  width: 350px;
+  height: 100px;
+  top: 388px;
+  left: 783px;
+  opacity: 5%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+}
+
+.card-2 .progres-icon {
+  width: 53px;
+  height: 53px;
+}
+
+.card-2 .text-content {
+  width: 160px;
+  height: 45px;
+  padding: 5px 16px 0px 20px;
+  top: 420px;
+  left: 876px;
+}
+
+.card-2 .text-content h3 {
+  width: 144px;
+  height: 21px;
+  font-family: Basic;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.card-2 .text-content p {
+  width: 81px;
+  height: 21px;
+  top: 24px;
+  font-family: Basic;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
 }
