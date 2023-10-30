@@ -98,6 +98,7 @@ nav {
   width: 723px;
   height: 56px;
   left: 259px;
+  top: 60px; /*self*/
   font-family: Nunito;
   font-size: 48px;
   font-weight: 700;
@@ -129,6 +130,7 @@ nav {
   top: 233px;
   position: relative;
   background-color: var(--color-2);
+  border-radius: 30px;
 }
 
 .card-1 {
@@ -450,4 +452,202 @@ nav {
   letter-spacing: 0px;
   text-align: left;
   color: var(--color-1);
+}
+
+.card-5 {
+  width: 350px;
+  height: 100px;
+  top: -120px;
+  left: 482px;
+  background-color: var(--color-3);
+  border-radius: 30px;
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+.card-5 ::shadow {
+  width: 350px;
+  height: 100px;
+  top: 263x;
+  left: 583px;
+  opacity: 5%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+}
+
+.card-5 .notification {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-2);
+  padding: 18px;
+}
+
+.card-5 .notification span:first-child {
+  width: 24px;
+  height: 24px;
+  top: 18px;
+  left: 18px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.card-5 .notification .badge {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 20px;
+  left: 40px;
+  border-radius: 50%;
+  font-family: Nunito;
+  font-size: 6px;
+  font-weight: 700;
+  line-height: 8px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--color-4);
+  background: linear-gradient(0deg, #234cad, #234cad), linear-gradient(0deg, #ffffff, #ffffff);
+  border: 2px solid #ffffff;
+  margin-left: 20px;
+  padding: 2px;
+}
+
+.card-5 .text-content {
+  width: 230px;
+  height: 45px;
+  top: 8px;
+  left: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-5 .text-content h3 {
+  width: 117px;
+  height: 21px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.card-5 .text-content span {
+  width: 38px;
+  height: 13px;
+  left: 192px;
+  opacity: 75%;
+  font-family: Nunito;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+  margin: 4px 0px 4px 75px;
+}
+
+.card-5 .text-content p {
+  width: 178px;
+  height: 21px;
+  top: 24px;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.card-6 {
+  width: 130px;
+  height: 160px;
+  top: -100px;
+  left: 482px;
+  background-color: var(--color-3);
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 28px 29.5px;
+  position: relative;
+}
+
+.card-6 ::shadow {
+  width: 130px;
+  height: 160px;
+  top: 698px;
+  left: 482px;
+  opacity: 9.62%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+}
+
+.card-6 .text-content {
+  width: 63px;
+  height: 13px;
+  top: 816.78px;
+  left: 516.29px;
+  margin: 20px 5px 0px 5px;
+}
+
+.card-6 .text-content h3 {
+  width: 63px;
+  height: 13px;
+  font-family: Nunito;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+  text-align: center;
+}
+
+.card-7 {
+  width: 75px;
+  height: 75px;
+  top: -330px;
+  left: 382px;
+  background-color: var(--color-3);
+  border-radius: 20px;
+  padding: 23.5px 20.5px;
+  position: relative;
+}
+
+.card-7 ::shadow {
+  width: 75px;
+  height: 75px;
+  top: 628px;
+  left: 382px;
+  opacity: 5%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+}
+
+.card-8 {
+  width: 75px;
+  height: 75px;
+  top: -740px;
+  left: 482px;
+  background-color: var(--color-3);
+  border-radius: 20px;
+  padding: 22.5px 25.5px;
+  position: relative;
+}
+
+.card-8 ::shadow {
+  width: 75px;
+  height: 75px;
+  top: 288px;
+  left: 482px;
+  opacity: 5%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
 }
