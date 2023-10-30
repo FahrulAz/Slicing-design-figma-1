@@ -77,6 +77,7 @@ a svg{
 }
 .banner > div{
     width: fit-content;
+    /* border: #234CAD 1px solid; */
 }
 /* content section 1 bagian kiri */
 .banner h1{
@@ -95,6 +96,7 @@ a svg{
     line-height: 26px;
 }
 .banner button{
+    cursor: pointer;
     width: 200px;
     height: 65px;
     border-radius: 32.5px;
@@ -107,9 +109,15 @@ a svg{
 }
 
 /* content section 1 bagian kanan */
+div .col-2{
+    position: relative;
+    width: 100%;
+}
+
 .card{
+    position: absolute;
     cursor: pointer;
-    margin-left: 100px;
+    margin-left: 50px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -121,37 +129,206 @@ a svg{
     width: 75px;
     height: 75px;
 }
-.wrapper{
-    display: flex;
-    align-items: self-end;
-}
+
 .upload{
-    margin-top: 25px;
+    position: absolute;
+    margin: 136px 315px 339px 50px;
     width: 350px;
     height: 100px;
     justify-content: left;
+    line-height: 21px;
 }
 .upload img{
     margin: 0 20px;
-    font-weight: 700;
-    line-height: 21px;
 }
 .upload span{
     font-size: 12px;
     font-weight: 400;
 }
-
 .upload-2{
+    position: absolute;
     display: flex;
-    margin-left: 50px;
+    margin: 76px 135px 339px 450px;
     width: 130px;
     height: 160px;
+    border-radius: 25px;
 }
-.upload-2 img{
-    margin: auto;
-}
-.upload-2 div{
+
+.data-upload-2{
     margin-top: 20px;
     font-size: 10px;
+    line-height: 13px;
     font-weight: 400;
+}
+
+.schedule{
+    top: 261px;
+    width: 276px;
+    height: 160px;
+    justify-content: left;
+    border-radius: 25px;
+}
+.schedule-text{
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 21px;
+}
+.schedule-text span{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.schedule-wrapper{
+    display: block;
+    margin-left: 20px;
+}
+.schedule-wrapper section{
+    display: flex;
+    align-items: center;
+}
+.schedule-icon{
+    display: inline-flex;
+    margin-top: 20px;
+    padding: 13px 14px;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    border: #FFFFFF 2px solid;
+    margin-right: -10px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.name-card{
+    Top: 446px;
+    width: 350px;
+    height: 100px;
+    justify-content: left;
+}
+.card-icon{
+    position: relative;
+    background-color: var(--bg-color);
+    padding: 18px 21px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 20px;
+}
+.card-bullet{
+    position: absolute;
+    top: 24px;
+    left: 70px;
+    color: #FFFFFF;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 8px;
+    background-color: var(--font-color);
+    border-radius: 50%;
+    padding: 4px 6px;
+}
+.card span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.card .card-time{
+    align-self: baseline;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.name-card-2{
+    Top: 261px;
+    right: 14px;
+    width: 350px;
+    height: 100px;
+    justify-content: left;
+}
+.name-card-2 .card-icon{
+    padding: 18px 17px;
+}
+
+.message{
+    justify-content: left;
+    top: 386px;
+    left: 450px;
+    margin-left: 0;
+    width: 350px;
+    height: 100px;
+    border-radius: 25px;
+}
+.message img{
+    /* border-radius: 50%; */
+    /* padding: 20px 21px; */
+    
+}
+.message-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 20px;
+    border: 50%;
+    background-color: var(--bg-color);
+    width: 60px;
+    height: 60px;  
+}
+.message h5{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; 
+}
+.message span{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.chat{
+    width: 75px;
+    height: 75px;
+    top: 511px;
+    left: 425px;
+    margin-left: 0;
+}
+
+/* footer bawah yang ada di section 1 */
+.last-section-1{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    width: 1240px;
+    height: 100px;
+}
+.last-img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.space{
+    margin-right: 155px;
+}
+.last-text h5{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 49px;
+}
+.last-text p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
 }
