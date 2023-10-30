@@ -1,84 +1,159 @@
 :root{
-    --color-1: #234CAD;
-    --color-2: #F2F6FF;
+    --font-color: #234CAD;
+    --font-style: 'Nunito';
+    --bg-white: #FFFFFF;
+    --bg-color: #F2F6FF;
 }
 
-body {
-    font-family: 'Nunito', sans-serif;
-    background-color: #FFFFFF;
-}
-
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+body{
+    font-family: var(--font-style);
+    color: var(--font-color);
+}
+
+.landing-page {
+    width: 1440px;
+    height: 5095px;
+    border: 1px solid black;
+}
+
+.container{
+    margin: 0 100px;
 }
 
 /* navbar */
-nav {
-    /* padding: 0 20px; */
+nav{
+    display: flex;
+    margin-top: 50px;
     width: 1240px;
     height: 50px;
-    top: 50px;
-    left: 100px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-.hamburger-icon {
-    width: 50px;
-    height: 50px;
-    flex-shrink: 0;
-    cursor: pointer;
-}
-.menu ul {
-    width: 170px;
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-.menu li {
-    margin: 0 20px;
+    text-transform: capitalize;
     font-size: 18px;
-    font-weight: 600;
-    line-height: 29px;
-    letter-spacing: 0;
-    text-align: left;
 }
-.menu a {
-    text-decoration: none;
-    color: var(--color-1);
+nav a{
+    color: var(--font-color);
 }
-.action {
+a svg{
+    background-color: var(--bg-color);
+    border-radius: 50%;
+}
+.nav-list{
     display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 600;
 }
-.action button {
+.nav-btn button{
     width: 135px;
     height: 50px;
+    color: var(--font-color);
     font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid var(--font-color);
+    background-color: var(--bg-white);
     font-weight: 700;
-    line-height: 29px;
-    letter-spacing: 0;
-    text-align: center;
-    text-decoration: none;
-    color: var(--color-1);
-    margin-left: 20px;
-    padding: 5px 0;
+}
+.nav-btn .btn-signup{
+    border-style: none;
+    background-color: var(--bg-color);
+    margin-left: 25px;
+}
+
+/* section 1 banner */
+.banner{
+    margin-top: 100px;
+    width: 1240px;
+    height: 575px;
+    background-color: var(--bg-color);
+    border-radius: 60px;
+    display: flex;
+}
+.banner > div{
+    width: fit-content;
+}
+/* content section 1 bagian kiri */
+.banner h1{
+    margin: 108px 50px auto 100px;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 375px;
+    line-height: 56px;
+}
+.banner p{
+    width: 304px;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner button{
+    width: 200px;
+    height: 65px;
+    border-radius: 32.5px;
+    color: var(--font-color);
+    font-weight: 700;
+    border: 2px solid var(--font-color);
+    background-color: var(--bg-color);
+    margin: 50px auto auto 100px;
+
+}
+
+/* content section 1 bagian kanan */
+.card{
     cursor: pointer;
+    margin-left: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-white);
 }
-.btn-login {
-    background-color: #FFFFFF;
-    border: 2px solid var(--color-1);
-    border-radius: 32.5px;
+.file{
+    margin-top: 36px;
+    width: 75px;
+    height: 75px;
 }
-.btn-login:hover {
-    background-color: var(--color-2);
+.wrapper{
+    display: flex;
+    align-items: self-end;
 }
-.btn-signup {
-    border: none;
-    border-radius: 32.5px;
-    background-color: var(--color-2);
+.upload{
+    margin-top: 25px;
+    width: 350px;
+    height: 100px;
+    justify-content: left;
+}
+.upload img{
+    margin: 0 20px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.upload span{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.upload-2{
+    display: flex;
+    margin-left: 50px;
+    width: 130px;
+    height: 160px;
+}
+.upload-2 img{
+    margin: auto;
+}
+.upload-2 div{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 400;
 }
 
 /* Pricing section */
@@ -86,11 +161,7 @@ nav {
     width: 1240px;
     height: 588px;
     position: relative;
-    top: 158px;
-    left: 100px;
-    /* background-color: var(--color-2);
-    border-radius: 60px; */
-    padding: 40px;
+    margin-top: 100px;
 }
 .pricing-content {
     display: flex;
@@ -104,7 +175,6 @@ nav {
     line-height: 56px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--color-1);
     margin-bottom: 20px;
 }
 .p {
@@ -114,8 +184,7 @@ nav {
     line-height: 26px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--color-1);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .pricing-plans {
     display: flex;
@@ -123,22 +192,24 @@ nav {
     align-items: flex-start;
 }
 .plan-1 {
-    background-color: var(--color-2);
+    background-color: var(--bg-color);
+    border-radius: 60px;
     width: 380px;
     height: 380px;
-    border-radius: 60px;
-    padding: 20px;
-    margin: 0 20px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 50px;
     text-align: center;
 }
 .plan-2 {
-    background-color: #FFFFFF;
+    background-color: var(--bg-white);
+    border: 3px solid var(--font-color);
+    border-radius: 60px;
     width: 380px;
     height: 380px;
-    border: 3px solid var(--color-1);
-    border-radius: 60px;
-    padding: 20px;
-    margin: 0 20px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     text-align: center;
 }
 .plan-1 h5 {
@@ -147,7 +218,6 @@ nav {
     line-height: 40px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--color-1);
     margin: 30px;
 }
 .plan-1 h4 {
@@ -158,8 +228,6 @@ nav {
     line-height: 48px;
     letter-spacing: 0px;
     text-align: center;
-
-    color: var(--color-1);
 }
 .plan-1 p {
     font-size: 20px;
@@ -167,7 +235,6 @@ nav {
     line-height: 32px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--color-1);
     margin: 10px;
 }
 .plan-2 h5 {
@@ -176,7 +243,6 @@ nav {
     line-height: 40px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--color-1);
     margin: 30px;
 }
 .plan-2 h4 {
@@ -187,7 +253,6 @@ nav {
     line-height: 48px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--color-1);
 }
 .plan-2 p {
     font-size: 20px;
@@ -199,8 +264,8 @@ nav {
     margin: 10px;
 }
 .button-1 {
-    background-color: #FFFFFF;
-    color: var(--color-1);
+    /* background-color: var(--bg-white);
+    color: var(--font-color);
     font-size: 25px;
     font-weight: 700;
     line-height: 40px;
@@ -211,11 +276,19 @@ nav {
     border-radius: 32.5px;
     flex-shrink: 0;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 25px;     */
+    width: 274px;
+    height: 75px;
+    border-radius: 32.5px;
+    color: var(--font-color);
+    font-weight: 700;
+    border: 2px solid var(--bg-white);
+    background-color: var(--bg-white);
+    margin: 50px;
 }
 .button-2 {
-    background-color: #FFFFFF;
-    color: var(--color-1);
+    /* background-color: var(--bg-white);
+    color: var(--font-color);
     font-size: 25px;
     font-weight: 700;
     line-height: 40px;
@@ -223,13 +296,21 @@ nav {
     text-align: center;
     padding: 15.5px 67.7px;
     border-radius: 32.5px;
-    border: 3px solid var(--color-1);
+    border: 3px solid var(--font-color);
     flex-shrink: 0;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 25px; */
+    width: 274px;
+    height: 75px;
+    border-radius: 32.5px;
+    color: var(--font-color);
+    font-weight: 700;
+    border: 2px solid var(--font-color);
+    background-color: var(--bg-white);
+    margin: 50px;
 }
 .button-2:hover {
-    background-color: var(--color-2);
+    background-color: var(--bg-color);
 }
 
 /* contact section */
@@ -237,11 +318,8 @@ nav {
     width: 1240px;
     height: 383px;
     position: relative;
-    top: 158px;
-    left: 100px;
-    background-color: var(--color-2);
-    margin-top: 200px;
-    margin-bottom: 500px;
+    background-color: var(--bg-color);
+    margin-top: 100px;
     border-radius: 60px;
 }
 .contact-content {
@@ -249,7 +327,7 @@ nav {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 40px;
+    /* padding: 40px; */
 }
 .contact h1 {
     font-size: 48px;
@@ -257,8 +335,7 @@ nav {
     line-height: 56px;
     letter-spacing: 0;
     text-align: center;
-    color: var(--color-1);
-    margin-top: 35px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 .contact p {
@@ -268,8 +345,7 @@ nav {
     line-height: 26px;
     letter-spacing: 0;
     text-align: center;
-    color: var(--color-1);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .email-form {
     width: 500px;
@@ -280,9 +356,8 @@ nav {
 }
 .email-form .submit-icon {
     position: absolute;
-    right: 10px;
-    top: 54%;
-    transform: translateY(-50%);
+    right: -20px;
+    bottom: 4px;
 }
 .email-form input {
     font-size: 18px;
@@ -292,10 +367,68 @@ nav {
     text-align: left;
     width: 100%;
     height: 100%;
-    padding: 10px 25px;
+    padding: 0 20px;
     border: none;
     border-radius: 20px;
 }
 .email-form input::placeholder {
-    color: var(--color-1);
+    color: var(--font-color);
+}
+
+/* Footer section */
+.footer {
+    width: 941px;
+    height: 166px;
+    top: 4800px;
+    left: 249px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer-col {
+    text-align: left;
+}
+.footer h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.footer p {
+    width: 163px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* margin: 15px 0; */
+    margin-top: 20px;
+    user-select: none;
+}
+.footer a {
+    color: var(--font-color);
+    display: block;
+    /* width: 163px; */
+    height: 36px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* margin: 8px 0; */
 }

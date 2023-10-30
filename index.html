@@ -5,78 +5,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StartUp WEB</title>
 
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- navbar -->
-    <nav>
-        <div class="hamburger-icon">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="25" cy="25" r="25" fill="#F2F6FF"/>
-                <rect x="15" y="28" width="20" height="2" rx="1" fill="#234CAD"/>
-                <rect x="15" y="20" width="20" height="2" rx="1" fill="#234CAD"/>
-            </svg>
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="action">
-            <button class="btn-login" href="#">Login</button>
-            <button class="btn-signup" href="#">Sign up</button>    
-        </div>
-    </nav>
-
-    <!-- Pricing section -->
-    <section class="pricing">
-        <div class="pricing-content">
-            <h1>Explore our simple pricing</h1>
-            <p class="p">We offer one of the most competitive prices on the market for everyone.</p>
-            <div class="pricing-plans">
-                <div class="plan-1">
-                    <h5>Basic</h5>
-                    <h4>$9</h4>
-                    <p>Per month</p>
-                    <button class="button-1">Learn More</button>
-                </div>
-                <div class="plan-2">
-                    <h5>Premium</h5>
-                    <h4>$29</h4>
-                    <p>Per month</p>
-                    <button class="button-2">Get Started</button>
-                </div>
-                <div class="plan-1">
-                    <h5>Enterprise</h5>
-                    <h4>$129</h4>
-                    <p>Per month</p>
-                    <button class="button-1">Learn More</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact section -->
-    <section class="contact">
-        <div class="contact-content">
-            <h1>Sign up to our newsletter</h1>
-            <p>Receive latest news, updates, discounts and many other things every week.</p>
-            <div class="email-form">
-                <input type="email" placeholder="Enter your email address">
-                <div class="submit-icon">
-                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="45" height="45" rx="12.5" fill="#234CAD"/>
-                        <path d="M18 14L27 22.5L18 31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <div class="landing-page">
+        <div class="container">
+          <!-- navbar -->
+          <nav>
+              <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+                      <!-- <circle cx="25" cy="25" r="25" fill="#F2F6FF"/> -->
+                      <rect x="15" y="28" width="20" height="2" rx="1" fill="#234CAD"/>
+                      <rect x="15" y="20" width="20" height="2" rx="1" fill="#234CAD"/>
                     </svg>
+              </a>
+      
+              <ul class="nav-list">
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">product</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">contact</a></li>
+              </ul>
+      
+              <div class="nav-btn">
+                  <button type="button">Login</button>
+                  <button class="btn-signup" type="button">Sign Up</button>
+              </div>
+          </nav>
+      
+          <section class="banner">
+              <div class="col-1">
+                  <h1>Business Communications Reinvented</h1>
+                  <p>Start communicating with your business team more efficiently with our app.</p>
+                  <button type="button">Get The App</button>
+              </div>
+              <div class="col-2">
+                  <div class="card file">
+                      <img src="img/Icon.svg" alt="icon">
+                  </div>
+                  <div class="wrapper">
+                      <div class="card upload">
+                              <img src="img/Progress.svg" alt="progress">
+                              <div>
+                                  <h5>Uploading Document</h5>
+                                  <span>7,09/ 108,98 GB</span>
+                              </div> 
+                          </div>
+      
+                          <div class="card upload-2">
+                              <div>
+                                  <img src="img/Progress.svg" alt="progress2" width="70" height="70">
+                                  <div>1,73/ 2.09 GB</div>
+                              </div>
+                          </div>
+                  </div>
+      
+              </div>
+              
+          </section>
+
+            <!-- Pricing section -->
+            <section class="pricing">
+                <div class="pricing-content">
+                    <h1>Explore our simple pricing</h1>
+                    <p class="p">We offer one of the most competitive prices on the market for everyone.</p>
+                    <div class="pricing-plans">
+                        <div class="plan-1">
+                            <h5>Basic</h5>
+                            <h4>$9</h4>
+                            <p>Per month</p>
+                            <button class="button-1">Learn More</button>
+                        </div>
+                        <div class="plan-2">
+                            <h5>Premium</h5>
+                            <h4>$29</h4>
+                            <p>Per month</p>
+                            <button class="button-2">Get Started</button>
+                        </div>
+                        <div class="plan-1">
+                            <h5>Enterprise</h5>
+                            <h4>$129</h4>
+                            <p>Per month</p>
+                            <button class="button-1">Learn More</button>
+                        </div>
+                    </div>
                 </div>
-            </div>            
+            </section>
+
+            <!-- Contact section -->
+            <section class="contact">
+                <div class="contact-content">
+                    <h1>Sign up to our newsletter</h1>
+                    <p>Receive latest news, updates, discounts and many other things every week.</p>
+                    <div class="email-form">
+                        <input type="email" placeholder="Enter your email address">
+                        <div class="submit-icon">
+                            <img src="img/submit-icon.svg" alt="Submit icon">
+                        </div>
+                    </div>            
+                </div>
+            </section>
+
+            <!-- Footer section -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-row">
+                        <div class="footer-col">
+                            <h4>Startup.io</h4>
+                            <p>&copy; 2020 - All rights reserved</p>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Product</h4>
+                            <a href="#">Benefits</a>
+                            <a href="#">Feedback</a>
+                            <a href="#">Features</a>
+                        </div>
+                        <div class="footer-col">
+                            <h4>About</h4>
+                            <a href="#">Company</a>
+                            <a href="#">Team</a>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Support</h4>
+                            <a href="#">Get Help</a>
+                            <a href="#">Term of Service</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
         </div>
-    </section>
-
-
+       </div>
 
 </body>
 </html>
