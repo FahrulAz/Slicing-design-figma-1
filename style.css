@@ -1,3 +1,157 @@
-html{
+:root{
+    --font-color: #234CAD;
+    --font-style: 'Nunito';
+    --bg-white: #FFFFFF;
+    --bg-color: #F2F6FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
     font-size: 16px;
+}
+body{
+    font-family: var(--font-style);
+    color: var(--font-color);
+}
+
+.landing-page {
+    width: 1440px;
+    height: 5095px;
+    border: 1px solid black;
+}
+
+.container{
+    margin: 0 100px;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    margin-top: 50px;
+    width: 1240px;
+    height: 50px;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+nav a{
+    color: var(--font-color);
+}
+a svg{
+    background-color: var(--bg-color);
+    border-radius: 50%;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 600;
+}
+.nav-btn button{
+    width: 135px;
+    height: 50px;
+    color: var(--font-color);
+    font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid var(--font-color);
+    background-color: var(--bg-white);
+    font-weight: 700;
+}
+.nav-btn .btn-signup{
+    border-style: none;
+    background-color: var(--bg-color);
+    margin-left: 25px;
+}
+
+/* section 1 banner */
+.banner{
+    margin-top: 100px;
+    width: 1240px;
+    height: 575px;
+    background-color: var(--bg-color);
+    border-radius: 60px;
+    display: flex;
+}
+.banner > div{
+    width: fit-content;
+}
+/* content section 1 bagian kiri */
+.banner h1{
+    margin: 108px 50px auto 100px;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 375px;
+    line-height: 56px;
+}
+.banner p{
+    width: 304px;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner button{
+    width: 200px;
+    height: 65px;
+    border-radius: 32.5px;
+    color: var(--font-color);
+    font-weight: 700;
+    border: 2px solid var(--font-color);
+    background-color: var(--bg-color);
+    margin: 50px auto auto 100px;
+
+}
+
+/* content section 1 bagian kanan */
+.card{
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-white);
+}
+.file{
+    margin-top: 36px;
+    width: 75px;
+    height: 75px;
+}
+.wrapper{
+    display: flex;
+    align-items: self-end;
+}
+.upload{
+    margin-top: 25px;
+    width: 350px;
+    height: 100px;
+    justify-content: left;
+}
+.upload img{
+    margin: 0 20px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.upload span{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.upload-2{
+    display: flex;
+    margin-left: 50px;
+    width: 130px;
+    height: 160px;
+}
+.upload-2 img{
+    margin: auto;
+}
+.upload-2 div{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 400;
 }

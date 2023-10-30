@@ -5,9 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StartUp WEB</title>
 
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+ <div class="landing-page">
+  <div class="container">
+    <!-- navbar -->
+    <nav>
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+                <!-- <circle cx="25" cy="25" r="25" fill="#F2F6FF"/> -->
+                <rect x="15" y="28" width="20" height="2" rx="1" fill="#234CAD"/>
+                <rect x="15" y="20" width="20" height="2" rx="1" fill="#234CAD"/>
+              </svg>
+        </a>
+
+        <ul class="nav-list">
+            <li><a href="#">home</a></li>
+            <li><a href="#">product</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+
+        <div class="nav-btn">
+            <button type="button">Login</button>
+            <button class="btn-signup" type="button">Sign Up</button>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="col-1">
+            <h1>Business Communications Reinvented</h1>
+            <p>Start communicating with your business team more efficiently with our app.</p>
+            <button type="button">Get The App</button>
+        </div>
+        <div class="col-2">
+            <div class="card file">
+                <img src="img/Icon.svg" alt="icon">
+            </div>
+            <div class="wrapper">
+                <div class="card upload">
+                        <img src="img/Progress.svg" alt="progress">
+                        <div>
+                            <h5>Uploading Document</h5>
+                            <span>7,09/ 108,98 GB</span>
+                        </div> 
+                    </div>
+
+                    <div class="card upload-2">
+                        <div>
+                            <img src="img/Progress.svg" alt="progress2" width="70" height="70">
+                            <div>1,73/ 2.09 GB</div>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+  </div>
+ </div>
+
 </body>
 </html>
