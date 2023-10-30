@@ -453,6 +453,7 @@ div .col-2{
     height: 75px;
     border-radius: 32.5px;
     color: var(--font-color);
+    font-size: 25px;
     font-weight: 700;
     border: 2px solid var(--bg-white);
     background-color: var(--bg-white);
@@ -476,6 +477,7 @@ div .col-2{
     height: 75px;
     border-radius: 32.5px;
     color: var(--font-color);
+    font-size: 25px;
     font-weight: 700;
     border: 3px solid var(--font-color);
     background-color: var(--bg-white);
