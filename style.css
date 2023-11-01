@@ -346,7 +346,6 @@ div .col-2{
     font-weight: 700;
     line-height: 56px;
     letter-spacing: 0px;
-    text-align: center;
     margin-bottom: 20px;
 }
 .p {
@@ -355,13 +354,10 @@ div .col-2{
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0px;
-    text-align: center;
     margin-bottom: 50px;
 }
 .pricing-plans {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 .plan-1 {
     background-color: var(--bg-color);
@@ -370,8 +366,7 @@ div .col-2{
     height: 380px;
     box-sizing: border-box;
     padding: 0;
-    margin: 0 50px;
-    text-align: center;
+    margin: 0 25px;
 }
 .plan-2 {
     background-color: var(--bg-white);
@@ -382,73 +377,53 @@ div .col-2{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 .plan-1 h5 {
     font-size: 25px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0px;
-    text-align: center;
-    margin: 30px;
+    margin-top: 50px;
 }
 .plan-1 h4 {
     height: 48px;
-    margin-top: 10px;
+    margin-top: 40px;
     font-size: 56px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0px;
-    text-align: center;
 }
 .plan-1 p {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0px;
-    text-align: center;
-    margin: 10px;
+    margin-top: 15px;
 }
 .plan-2 h5 {
     font-size: 25px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0px;
-    text-align: center;
-    margin: 30px;
+    margin-top: 50px;
 }
 .plan-2 h4 {
     height: 48px;
-    margin-top: 10px;
+    margin-top: 40px;
     font-size: 56px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0px;
-    text-align: center;
 }
 .plan-2 p {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0px;
-    text-align: center;
     color: var(--color-1);
-    margin: 10px;
+    margin-top: 15px;
 }
 .btn-plan-1 {
-    /* background-color: var(--bg-white);
-    color: var(--font-color);
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0px;
-    text-align: center;
-    padding: 15.5px 67.7px;
-    border: none;
-    border-radius: 32.5px;
-    flex-shrink: 0;
-    cursor: pointer;
-    margin-top: 25px;     */
     width: 274px;
     height: 75px;
     border-radius: 32.5px;
@@ -457,22 +432,9 @@ div .col-2{
     font-weight: 700;
     border: 2px solid var(--bg-white);
     background-color: var(--bg-white);
-    margin: 50px;
+    margin-top: 35px;
 }
 .btn-plan-2 {
-    /* background-color: var(--bg-white);
-    color: var(--font-color);
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0px;
-    text-align: center;
-    padding: 15.5px 67.7px;
-    border-radius: 32.5px;
-    border: 3px solid var(--font-color);
-    flex-shrink: 0;
-    cursor: pointer;
-    margin-top: 25px; */
     width: 274px;
     height: 75px;
     border-radius: 32.5px;
@@ -481,7 +443,7 @@ div .col-2{
     font-weight: 700;
     border: 3px solid var(--font-color);
     background-color: var(--bg-white);
-    margin: 50px;
+    margin-top: 35px;
 }
 
 /* contact */
@@ -490,15 +452,13 @@ div .col-2{
     height: 383px;
     position: relative;
     background-color: var(--bg-color);
-    margin-top: 100px;
     border-radius: 60px;
+    margin-top: 100px;
 }
 .contact-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    /* padding: 40px; */
 }
 .contact h1 {
     font-size: 48px;
@@ -506,7 +466,7 @@ div .col-2{
     line-height: 56px;
     letter-spacing: 0;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 75px;
     margin-bottom: 20px;
 }
 .contact p {
@@ -522,12 +482,10 @@ div .col-2{
     width: 500px;
     height: 65px;
     top: 243px;
-    left: 370px;
     position: absolute;
 }
 .email-form .submit-icon {
     position: absolute;
-    /* right: 10px; */
     right: -30px;
     bottom: 4px;
 }
@@ -539,7 +497,6 @@ div .col-2{
     text-align: left;
     width: 100%;
     height: 100%;
-    /* padding: 0; */
     padding: 0 20px;
     border: none;
     border-radius: 20px;
@@ -552,18 +509,11 @@ div .col-2{
 .footer {
     width: 941px;
     height: 166px;
-    top: 4800px;
+    top: 4854px;
     left: 249px;
     position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-}
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    width: 1000px;
+    /* margin-top: 100px; */
 }
 .footer-row {
     display: flex;
@@ -573,35 +523,28 @@ div .col-2{
 .footer-col {
     text-align: left;
 }
-.footer h4 {
+.footer h5 {
     font-size: 30px;
     font-weight: 700;
     line-height: 49px;
     letter-spacing: 0px;
-    text-align: left;
     margin-bottom: 10px;
 }
 .footer p {
+    user-select: none;
     width: 163px;
-    height: 58px;
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0px;
-    text-align: left;
-    /* margin: 15px 0; */
-    margin-top: 20px;
-    user-select: none;
+    margin-top: 24px;
 }
 .footer a {
     color: var(--font-color);
     display: block;
-    /* width: 163px; */
-    height: 36px;
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0px;
-    text-align: left;
-    /* margin: 8px 0; */
+    margin-top: 13px;
 }
