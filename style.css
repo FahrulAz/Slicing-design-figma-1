@@ -83,12 +83,431 @@ nav {
   background-color: var(--color-2);
 }
 
-/*Product Features*/
-/*Text-center*/
+/*Section B*/
+/*Product Features 1*/
+.product-text-right {
+  width: 1015px;
+  height: 575px;
+  top: 1175px;
+  left: 213px;
+  position: relative;
+}
+
+.product-text-right .content {
+  width: 340px;
+  height: 360px;
+  top: 467px;
+  left: 675px;
+  position: relative;
+}
+
+.product-text-right .main-title {
+  width: 340px;
+  height: 168px;
+  top: 108px;
+  left: 675px;
+  font-family: Nunito;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .body-text {
+  width: 304px;
+  height: 52px;
+  top: 301px;
+  left: 675px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+  margin: 25px 0px;
+}
+
+.product-text-right button {
+  width: 200px;
+  height: 65px;
+  border: 2px;
+  color: var(--color-1);
+  border: 2px solid var(--color-1);
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 33px;
+  background-color: var(--color-3);
+}
+
+.product-text-right .card {
+  width: 575px;
+  height: 575px;
+  background-color: var(--color-2);
+  border-radius: 30px;
+}
+
+.product-text-right .card-1 {
+  width: 438px;
+  height: 125px;
+  top: 108px;
+  left: 69px;
+  background-color: var(--color-3);
+  border-radius: 30px;
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+.product-text-right .card-1 ::shadow {
+  width: 538px;
+  height: 175px;
+  top: 108px;
+  left: 19px;
+  opacity: 5%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+}
+
+.product-text-right .card-1 .notification {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  top: 133px;
+  left: 94px;
+  background-color: var(--color-2);
+  padding: 22px;
+}
+
+.product-text-right .card-1 .notification span:first-child {
+  width: 25px;
+  height: 29px;
+  top: 23px;
+  left: 25px;
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .card-1 .notification .badge {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  left: 75px;
+  border-radius: 50%;
+  font-family: Nunito;
+  font-size: 7px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-4);
+  background: linear-gradient(0deg, #234cad, #234cad), linear-gradient(0deg, #ffffff, #ffffff);
+  border: 2.5px solid #ffffff;
+  padding: 2.5px 0px 2.5px 5.5px;
+}
+
+.product-text-right .card-1 .text-content {
+  width: 288px;
+  height: 57px;
+  top: 12px;
+  left: 25px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-text-right .card-1 .text-content h3 {
+  width: 224px;
+  height: 27px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .card-1 .text-content span {
+  width: 46px;
+  height: 17px;
+  left: 242px;
+  opacity: 75%;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+  margin: 4px 0px;
+}
+
+.product-text-right .card-1 .text-content p {
+  width: 224px;
+  height: 27px;
+  top: 30px;
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .card-2 {
+  width: 350px;
+  height: 100px;
+  top: 150px;
+  left: 113px;
+  background-color: var(--color-3);
+  border-radius: 30px;
+  display: flex;
+  padding: 20px;
+  position: relative;
+  opacity: 85%;
+}
+
+.product-text-right .card-2 ::shadow {
+  width: 400px;
+  height: 125px;
+  top: 88px;
+  left: 88px;
+  opacity: 5%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+}
+
+.product-text-right .card-2 .notification {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  top: 278px;
+  left: 133px;
+  background-color: var(--color-2);
+  padding: 18px;
+}
+
+.product-text-right .card-2 .notification span:first-child {
+  width: 24px;
+  height: 24px;
+  top: 18px;
+  left: 18px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .card-2 .notification .badge {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 20px;
+  left: 62px;
+  border-radius: 50%;
+  font-family: Nunito;
+  font-size: 6px;
+  font-weight: 700;
+  line-height: 8px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-4);
+  background: linear-gradient(0deg, #234cad, #234cad), linear-gradient(0deg, #ffffff, #ffffff);
+  border: 2px solid #ffffff;
+  padding: 2px 0px 2px 4.5px;
+}
+
+.product-text-right .card-2 .text-content {
+  width: 230px;
+  height: 45px;
+  top: 7px;
+  left: 30px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-text-right .card-2 .text-content h3 {
+  width: 180px;
+  height: 21px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .card-2 .text-content span {
+  width: 39px;
+  height: 13px;
+  left: 191px;
+  opacity: 75%;
+  font-family: Nunito;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+  margin: 4px 0px;
+}
+
+.product-text-right .card-2 .text-content p {
+  width: 180px;
+  height: 21px;
+  top: 24px;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .card-3 {
+  width: 262px;
+  height: 75px;
+  top: 175px;
+  left: 157px;
+  background-color: var(--color-3);
+  border-radius: 30px;
+  display: flex;
+  padding: 15px;
+  position: relative;
+  opacity: 70%;
+}
+
+.product-text-right .card-3 ::shadow {
+  width: 282px;
+  height: 85px;
+  top: 383px;
+  left: 147px;
+  opacity: 5%;
+  background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
+}
+
+.product-text-right .card-3 .notification {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  top: 398px;
+  left: 172px;
+  background-color: var(--color-2);
+  padding: 12px;
+}
+
+.product-text-right .card-3 .notification span:first-child {
+  width: 20px;
+  height: 17px;
+  top: 10px;
+  left: 13px;
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .card-3 .notification .badge {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 15px;
+  left: 48px;
+  border-radius: 50%;
+  font-family: Nunito;
+  font-size: 4px;
+  font-weight: 700;
+  line-height: 6px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-4);
+  background: linear-gradient(0deg, #234cad, #234cad), linear-gradient(0deg, #ffffff, #ffffff);
+  border: 1.5px solid #ffffff;
+  padding: 1.5px 0px 1.5px 3.5px;
+}
+
+.product-text-right .card-3 .text-content {
+  width: 171px;
+  height: 34px;
+  top: 5px;
+  left: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-text-right .card-3 .text-content h3 {
+  width: 140px;
+  height: 16px;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+.product-text-right .card-3 .text-content span {
+  width: 27px;
+  height: 10px;
+  left: 144px;
+  opacity: 75%;
+  font-family: Nunito;
+  font-size: 7px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+  margin: 4px 0px;
+}
+
+.product-text-right .card-3 .text-content p {
+  width: 140px;
+  height: 16px;
+  top: 18px;
+  font-family: Nunito;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+}
+
+/*Product Features 2*/
 .product-text-center {
   width: 1240px;
   height: 908px;
-  top: 571px;
+  top: 1900px;
   left: 100px;
   padding: 0px, 0px, 50px, 0px;
   position: relative;
@@ -133,7 +552,7 @@ nav {
   border-radius: 30px;
 }
 
-.card-1 {
+.product-text-center .card-1 {
   width: 276px;
   height: 160px;
   top: 155px;
@@ -146,7 +565,7 @@ nav {
   padding: 20px 47px 20px 20px;
 }
 
-.card-1 ::shadow {
+.product-text-center .card-1 ::shadow {
   width: 376px;
   height: 210px;
   top: 388px;
@@ -155,7 +574,7 @@ nav {
   background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
 }
 
-.card-1 .calendar-icon {
+.product-text-center .card-1 .calendar-icon {
   width: 60px;
   height: 60px;
   top: 408px;
@@ -164,21 +583,21 @@ nav {
   border-radius: 50%;
 }
 
-.card-1 .calendar-icon img {
+.product-text-center .card-1 .calendar-icon img {
   width: 20px;
   height: 20px;
   margin-top: 18px;
   margin-left: 18px;
 }
 
-.card-1 .text-content {
+.product-text-center .card-1 .text-content {
   width: 129px;
   height: 45px;
   padding-left: 20px;
   padding-top: 8px;
 }
 
-.card-1 .text-content h3 {
+.product-text-center .card-1 .text-content h3 {
   width: 106px;
   height: 21px;
   font-family: Nunito;
@@ -190,7 +609,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-1 .text-content p {
+.product-text-center .card-1 .text-content p {
   width: 129px;
   height: 21px;
   top: 24px;
@@ -203,13 +622,13 @@ nav {
   color: var(--color-1);
 }
 
-.card-1 .meeting-participan {
+.product-text-center .card-1 .meeting-participan {
   width: 130px;
   height: 40px;
   margin-top: 20px;
 }
 
-.card-2 {
+.product-text-center .card-2 {
   width: 350px;
   height: 100px;
   top: 0px;
@@ -221,7 +640,7 @@ nav {
   position: relative;
 }
 
-.card-2 ::shadow {
+.product-text-center .card-2 ::shadow {
   width: 350px;
   height: 100px;
   top: 388px;
@@ -230,12 +649,12 @@ nav {
   background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
 }
 
-.card-2 .progres-icon {
+.product-text-center .card-2 .progres-icon {
   width: 53px;
   height: 53px;
 }
 
-.card-2 .text-content {
+.product-text-center .card-2 .text-content {
   width: 160px;
   height: 45px;
   padding: 5px 16px 0px 20px;
@@ -243,7 +662,7 @@ nav {
   left: 876px;
 }
 
-.card-2 .text-content h3 {
+.product-text-center .card-2 .text-content h3 {
   width: 144px;
   height: 21px;
   font-family: Basic;
@@ -255,7 +674,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-2 .text-content p {
+.product-text-center .card-2 .text-content p {
   width: 81px;
   height: 21px;
   top: 24px;
@@ -268,7 +687,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-3 {
+.product-text-center .card-3 {
   width: 350px;
   height: 100px;
   top: 0px;
@@ -280,7 +699,7 @@ nav {
   position: relative;
 }
 
-.card-3 ::shadow {
+.product-text-center .card-3 ::shadow {
   width: 350px;
   height: 100px;
   top: 503x;
@@ -289,7 +708,7 @@ nav {
   background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
 }
 
-.card-3 .save-icon {
+.product-text-center .card-3 .save-icon {
   width: 60px;
   height: 60px;
   top: 523px;
@@ -298,7 +717,7 @@ nav {
   border-radius: 50%;
 }
 
-.card-3 .save-icon img {
+.product-text-center .card-3 .save-icon img {
   width: 17px;
   height: 20px;
   top: 543px;
@@ -306,7 +725,7 @@ nav {
   margin: 20px 22px 20px 22px;
 }
 
-.card-3 .text-content {
+.product-text-center .card-3 .text-content {
   width: 224px;
   height: 45px;
   top: 8px;
@@ -314,7 +733,7 @@ nav {
   position: relative;
 }
 
-.card-3 .text-content h3 {
+.product-text-center .card-3 .text-content h3 {
   width: 115px;
   height: 21px;
   font-family: Nunito;
@@ -326,7 +745,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-3 .text-content p {
+.product-text-center .card-3 .text-content p {
   width: 226px;
   height: 21px;
   top: 24px;
@@ -339,7 +758,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-4 {
+.product-text-center .card-4 {
   width: 350px;
   height: 100px;
   top: -330px;
@@ -351,7 +770,7 @@ nav {
   position: relative;
 }
 
-.card-4 ::shadow {
+.product-text-center .card-4 ::shadow {
   width: 350px;
   height: 100px;
   top: 263x;
@@ -360,7 +779,7 @@ nav {
   background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
 }
 
-.card-4 .notification {
+.product-text-center .card-4 .notification {
   text-decoration: none;
   display: inline-block;
   border-radius: 50%;
@@ -370,7 +789,7 @@ nav {
   padding: 18px;
 }
 
-.card-4 .notification span:first-child {
+.product-text-center .card-4 .notification span:first-child {
   width: 24px;
   height: 24px;
   top: 18px;
@@ -384,7 +803,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-4 .notification .badge {
+.product-text-center .card-4 .notification .badge {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -404,7 +823,7 @@ nav {
   padding: 2px;
 }
 
-.card-4 .text-content {
+.product-text-center .card-4 .text-content {
   width: 230px;
   height: 45px;
   top: 8px;
@@ -414,7 +833,7 @@ nav {
   flex-wrap: wrap;
 }
 
-.card-4 .text-content h3 {
+.product-text-center .card-4 .text-content h3 {
   width: 117px;
   height: 21px;
   font-family: Nunito;
@@ -426,7 +845,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-4 .text-content span {
+.product-text-center .card-4 .text-content span {
   width: 38px;
   height: 13px;
   left: 192px;
@@ -441,7 +860,7 @@ nav {
   margin: 4px 0px 4px 75px;
 }
 
-.card-4 .text-content p {
+.product-text-center .card-4 .text-content p {
   width: 178px;
   height: 21px;
   top: 24px;
@@ -454,7 +873,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-5 {
+.product-text-center .card-5 {
   width: 350px;
   height: 100px;
   top: -120px;
@@ -466,7 +885,7 @@ nav {
   position: relative;
 }
 
-.card-5 ::shadow {
+.product-text-center .card-5 ::shadow {
   width: 350px;
   height: 100px;
   top: 263x;
@@ -475,7 +894,7 @@ nav {
   background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
 }
 
-.card-5 .notification {
+.product-text-center .card-5 .notification {
   text-decoration: none;
   display: inline-block;
   border-radius: 50%;
@@ -485,7 +904,7 @@ nav {
   padding: 18px;
 }
 
-.card-5 .notification span:first-child {
+.product-text-center .card-5 .notification span:first-child {
   width: 24px;
   height: 24px;
   top: 18px;
@@ -499,7 +918,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-5 .notification .badge {
+.product-text-center .card-5 .notification .badge {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -519,7 +938,7 @@ nav {
   padding: 2px;
 }
 
-.card-5 .text-content {
+.product-text-center .card-5 .text-content {
   width: 230px;
   height: 45px;
   top: 8px;
@@ -529,7 +948,7 @@ nav {
   flex-wrap: wrap;
 }
 
-.card-5 .text-content h3 {
+.product-text-center .card-5 .text-content h3 {
   width: 117px;
   height: 21px;
   font-family: Nunito;
@@ -541,7 +960,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-5 .text-content span {
+.product-text-center .card-5 .text-content span {
   width: 38px;
   height: 13px;
   left: 192px;
@@ -556,7 +975,7 @@ nav {
   margin: 4px 0px 4px 75px;
 }
 
-.card-5 .text-content p {
+.product-text-center .card-5 .text-content p {
   width: 178px;
   height: 21px;
   top: 24px;
@@ -569,7 +988,7 @@ nav {
   color: var(--color-1);
 }
 
-.card-6 {
+.product-text-center .card-6 {
   width: 130px;
   height: 160px;
   top: -100px;
@@ -582,7 +1001,7 @@ nav {
   position: relative;
 }
 
-.card-6 ::shadow {
+.product-text-center .card-6 ::shadow {
   width: 130px;
   height: 160px;
   top: 698px;
@@ -591,7 +1010,7 @@ nav {
   background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
 }
 
-.card-6 .text-content {
+.product-text-center .card-6 .text-content {
   width: 63px;
   height: 13px;
   top: 816.78px;
@@ -599,7 +1018,7 @@ nav {
   margin: 20px 5px 0px 5px;
 }
 
-.card-6 .text-content h3 {
+.product-text-center .card-6 .text-content h3 {
   width: 63px;
   height: 13px;
   font-family: Nunito;
@@ -612,7 +1031,7 @@ nav {
   text-align: center;
 }
 
-.card-7 {
+.product-text-center .card-7 {
   width: 75px;
   height: 75px;
   top: -330px;
@@ -623,7 +1042,7 @@ nav {
   position: relative;
 }
 
-.card-7 ::shadow {
+.product-text-center .card-7 ::shadow {
   width: 75px;
   height: 75px;
   top: 628px;
@@ -632,7 +1051,7 @@ nav {
   background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
 }
 
-.card-8 {
+.product-text-center .card-8 {
   width: 75px;
   height: 75px;
   top: -740px;
@@ -643,7 +1062,7 @@ nav {
   position: relative;
 }
 
-.card-8 ::shadow {
+.product-text-center .card-8 ::shadow {
   width: 75px;
   height: 75px;
   top: 288px;
