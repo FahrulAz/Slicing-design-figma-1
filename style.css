@@ -625,7 +625,40 @@ nav {
 .product-text-center .card-1 .meeting-participan {
   width: 130px;
   height: 40px;
-  margin-top: 20px;
+}
+
+.product-text-center .card-1 .meeting-participan span {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 100px;
+  border-radius: 50%;
+  font-family: Nunito;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-1);
+  background: linear-gradient(0deg, #f2f6ff, #f2f6ff), linear-gradient(0deg, #ffffff, #ffffff);
+  border: 2px solid #ffffff;
+  padding: 11.5px;
+}
+
+.product-text-center .card-1 .meeting-participan span:first-child {
+  left: 20px;
+}
+
+.product-text-center .card-1 .meeting-participan span:nth-child(2) {
+  left: 52px;
+}
+
+.product-text-center .card-1 .meeting-participan span:nth-child(3) {
+  left: 82px;
+}
+
+.product-text-center .card-1 .meeting-participan span:last-child {
+  left: 112px;
 }
 
 .product-text-center .card-2 {
@@ -834,7 +867,7 @@ nav {
 }
 
 .product-text-center .card-4 .text-content h3 {
-  width: 117px;
+  width: 178px;
   height: 21px;
   font-family: Nunito;
   font-size: 16px;
@@ -857,7 +890,7 @@ nav {
   letter-spacing: 0px;
   text-align: left;
   color: var(--color-1);
-  margin: 4px 0px 4px 75px;
+  margin: 4px 0px;
 }
 
 .product-text-center .card-4 .text-content p {
@@ -949,7 +982,7 @@ nav {
 }
 
 .product-text-center .card-5 .text-content h3 {
-  width: 117px;
+  width: 178px;
   height: 21px;
   font-family: Nunito;
   font-size: 16px;
@@ -972,7 +1005,7 @@ nav {
   letter-spacing: 0px;
   text-align: left;
   color: var(--color-1);
-  margin: 4px 0px 4px 75px;
+  margin: 4px 0px;
 }
 
 .product-text-center .card-5 .text-content p {
