@@ -16,75 +16,8 @@ body {
   box-sizing: border-box;
 }
 
-/* navbar */
-nav {
-  /* padding: 0 20px; */
-  width: 1240px;
-  height: 50px;
-  top: 50px;
-  left: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-.hamburger-icon {
-  width: 50px;
-  height: 50px;
-  flex-shrink: 0;
-  cursor: pointer;
-}
-.menu ul {
-  width: 170px;
-  list-style: none;
-  padding: 0;
-  display: flex;
-}
-.menu li {
-  margin: 0 20px;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 29px;
-  letter-spacing: 0;
-  text-align: left;
-}
-.menu a {
-  text-decoration: none;
-  color: var(--color-1);
-}
-.action {
-  display: flex;
-}
-.action button {
-  width: 135px;
-  height: 50px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 29px;
-  letter-spacing: 0;
-  text-align: center;
-  text-decoration: none;
-  color: var(--color-1);
-  margin-left: 20px;
-  padding: 5px 0;
-  cursor: pointer;
-}
-.btn-login {
-  background-color: #ffffff;
-  border: 2px solid var(--color-1);
-  border-radius: 32.5px;
-}
-.btn-login:hover {
-  background-color: var(--color-2);
-}
-.btn-signup {
-  border: none;
-  border-radius: 32.5px;
-  background-color: var(--color-2);
-}
-
 /*Section B*/
-/*Product Features 1*/
+/*Product Features 1 / Section Text-Right di Figma*/
 .product-text-right {
   width: 1015px;
   height: 575px;
@@ -144,6 +77,7 @@ nav {
   text-align: center;
   border-radius: 33px;
   background-color: var(--color-3);
+  cursor: pointer;
 }
 
 .product-text-right .card {
@@ -503,7 +437,7 @@ nav {
   color: var(--color-1);
 }
 
-/*Product Features 2*/
+/*Product Features 2 / Section Text-Center di Figma*/
 .product-text-center {
   width: 1240px;
   height: 908px;
