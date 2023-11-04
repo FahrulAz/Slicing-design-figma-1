@@ -5,145 +5,275 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StartUp WEB</title>
 
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Section B -->
-    <!--Products Features 1 / Section Text-Right di Figma -->
-    <section class="product-text-right">
-      <div class="content">
-        <h1 class="main-title">Use our app to send messages to your team</h1>
-        <p class="body-text">We offer really easy communications for all businesses from small to large.</p>
-        <button>Get the app</button>
+    <div class="landing-page">
+      <div class="container">
+        <!-- create fahrul -->
+        <!-- navbar -->
+        <nav>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+              <!-- <circle cx="25" cy="25" r="25" fill="#F2F6FF"/> -->
+              <rect x="15" y="28" width="20" height="2" rx="1" fill="#234CAD" />
+              <rect x="15" y="20" width="20" height="2" rx="1" fill="#234CAD" />
+            </svg>
+          </a>
+
+          <ul class="nav-list">
+            <li><a href="#">home</a></li>
+            <li><a href="#">product</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+
+          <div class="nav-btn">
+            <button type="button">Login</button>
+            <button class="btn-signup" type="button">Sign Up</button>
+          </div>
+        </nav>
+
+        <section class="banner">
+          <div class="col-1">
+            <h1>Business Communications Reinvented</h1>
+            <p>Start communicating with your business team more efficiently with our app.</p>
+            <button type="button">Get The App</button>
+          </div>
+
+          <div class="col-2">
+            <div class="card file">
+              <img src="img/Icon.svg" alt="icon" />
+            </div>
+
+            <div class="card upload">
+              <img src="img/Progress.svg" alt="progress" />
+              <div>
+                <h5>Uploading Document</h5>
+                <span>7,09/ 108,98 GB</span>
+              </div>
+            </div>
+
+            <div class="card upload-2">
+              <div>
+                <img src="img/upload-2.svg" alt="progress2" />
+                <div class="data-upload-2">1,73/ 2.09 GB</div>
+              </div>
+            </div>
+
+            <div class="card schedule">
+              <div class="schedule-wrapper">
+                <section>
+                  <img src="img/schedule.svg" alt="schedule" width="60" height="60" />
+                  <div class="schedule-text">
+                    <h5>Team Meeting</h5>
+                    <span>2:30 PM 15 Apr 2020</span>
+                  </div>
+                </section>
+
+                <div class="schedule-icon">JM</div>
+                <div class="schedule-icon">AC</div>
+                <div class="schedule-icon">KD</div>
+                <div class="schedule-icon">+8</div>
+              </div>
+            </div>
+
+            <div class="card name-card">
+              <div class="card-icon">JS</div>
+              <div class="card-bullet">3</div>
+              <div>
+                <h5>John Smith</h5>
+                <span>Hello, are you available for a pro…</span>
+              </div>
+              <div class="card-time">11:02 AM</div>
+            </div>
+
+            <div class="card name-card-2">
+              <div class="card-icon">AB</div>
+              <div class="card-bullet">2</div>
+              <div>
+                <h5>Anna Brooks</h5>
+                <span>Hi, how are you doing today?</span>
+              </div>
+              <div class="card-time">2:09 PM</div>
+            </div>
+
+            <div class="card message">
+              <div class="message-img"><img src="img/save.svg" alt="message" /></div>
+              <div>
+                <h5>Message Saved</h5>
+                <span>You have successfully saved this message</span>
+              </div>
+            </div>
+
+            <div class="card chat">
+              <img src="img/chat.svg" alt="chat" />
+            </div>
+          </div>
+        </section>
+
+        <div class="last-section-1">
+          <div class="last-img">
+            <img src="img/clouds.svg" alt="clouds" />
+          </div>
+          <div class="last-text space">
+            <h5>Cloud based</h5>
+            <p>All your messages are always backed up.</p>
+          </div>
+
+          <div class="last-img">
+            <img src="img/lock.svg" alt="clouds" />
+          </div>
+          <div class="last-text">
+            <h5>Secured</h5>
+            <p>All your message are stored very securely.</p>
+          </div>
+        </div>
+        <!-- end task fahrul -->
+
+        <!-- Section B -->
+        <!--Products Features 1 / Section Text-Right di Figma -->
+        <section class="product-text-right">
+          <div class="content">
+            <h1 class="main-title">Use our app to send messages to your team</h1>
+            <p class="body-text">We offer really easy communications for all businesses from small to large.</p>
+            <button>Get the app</button>
+          </div>
+          <div class="card-content">
+            <div class="card-1">
+              <a href="#" class="notification">
+                <span>AJ</span>
+                <span class="badge">2</span>
+              </a>
+              <div class="text-content">
+                <h3>Andrew Johnson</h3>
+                <span>1:03 PM</span>
+                <p>I have seen that you are availabl…</p>
+              </div>
+            </div>
+
+            <div class="card-2">
+              <a href="#" class="notification">
+                <span>DL</span>
+                <span class="badge">1</span>
+              </a>
+              <div class="text-content">
+                <h3>Daniel Luke</h3>
+                <span>5:27 AM</span>
+                <p>Would you like to have a meetin…</p>
+              </div>
+            </div>
+
+            <div class="card-3">
+              <a href="#" class="notification">
+                <span>MC</span>
+                <span class="badge">4</span>
+              </a>
+              <div class="text-content">
+                <h3>Mark Clarke</h3>
+                <span>2:08 AM</span>
+                <p>This was such a busy week. I can…</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Products Features 2 / Section Text-Center di Figma -->
+        <section class="product-text-center">
+          <div class="text-content">
+            <h2 class="main-title">Transform your communications</h2>
+            <p class="body-text">Our mobile app is the only thing you need to change the way you communicate with your team</p>
+          </div>
+          <div class="content">
+            <div class="card-1">
+              <div class="calendar-icon">
+                <img src="img/Card-1-Icon.svg" alt="icon" />
+              </div>
+              <div class="text-content">
+                <h3>Sales Meeting</h3>
+                <p>10:30 AM 05 May 2020</p>
+              </div>
+              <div class="meeting-participan">
+                <span>KR</span>
+                <span>MJ</span>
+                <span>OI</span>
+                <span>+3</span>
+              </div>
+            </div>
+
+            <div class="card-2">
+              <div class="progres-icon">
+                <img src="img/Card-2-Progress.svg" alt="icon" />
+              </div>
+              <div class="text-content">
+                <h3>Uploading Document</h3>
+                <p>27,09/ 78,93 GB</p>
+              </div>
+            </div>
+
+            <div class="card-3">
+              <div class="save-icon">
+                <img src="img/Card-3-Icon.svg" alt="icon" />
+              </div>
+              <div class="text-content">
+                <h3>Message Saved</h3>
+                <p>You have successfully saved this message</p>
+              </div>
+            </div>
+
+            <div class="card-4">
+              <a href="#" class="notification">
+                <span>SB</span>
+                <span class="badge">3</span>
+              </a>
+              <div class="text-content">
+                <h3>Spencer Brooks</h3>
+                <span>3:08 PM</span>
+                <p>Have you seen the project requi…</p>
+              </div>
+            </div>
+
+            <div class="card-5">
+              <a href="#" class="notification">
+                <span>AS</span>
+                <span class="badge">2</span>
+              </a>
+              <div class="text-content">
+                <h3>Amy Smith</h3>
+                <span>5:18 PM</span>
+                <p>Could please call me now? It is i…</p>
+              </div>
+            </div>
+
+            <div class="card-6">
+              <div class="text-content">
+                <img src="img/Crad-6-Progress.svg" alt="icon" />
+                <h3>6,02/ 7,98 GB</h3>
+              </div>
+            </div>
+
+            <div class="card-7">
+              <div class="messege-icon">
+                <img src="img/Card-7-Icon.svg" alt="icon" />
+              </div>
+            </div>
+
+            <div class="card-8">
+              <div class="document-icon">
+                <img src="img/Card-8-Icon.svg" alt="icon" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--end taks vindy-->
       </div>
-      <div class="card">
-        <div class="card-1">
-          <a href="#" class="notification">
-            <span>AJ</span>
-            <span class="badge">2</span>
-          </a>
-          <div class="text-content">
-            <h3>Andrew Johnson</h3>
-            <span>1:03 PM</span>
-            <p>I have seen that you are availabl…</p>
-          </div>
-        </div>
-
-        <div class="card-2">
-          <a href="#" class="notification">
-            <span>DL</span>
-            <span class="badge">1</span>
-          </a>
-          <div class="text-content">
-            <h3>Daniel Luke</h3>
-            <span>5:27 AM</span>
-            <p>Would you like to have a meetin…</p>
-          </div>
-        </div>
-
-        <div class="card-3">
-          <a href="#" class="notification">
-            <span>MC</span>
-            <span class="badge">4</span>
-          </a>
-          <div class="text-content">
-            <h3>Mark Clarke</h3>
-            <span>2:08 AM</span>
-            <p>This was such a busy week. I can…</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Products Features 2 / Section Text-Center di Figma -->
-    <section class="product-text-center">
-      <div class="text-content">
-        <h2 class="main-title">Transform your communications</h2>
-        <p class="body-text">Our mobile app is the only thing you need to change the way you communicate with your team</p>
-      </div>
-      <div class="content">
-        <div class="card-1">
-          <div class="calendar-icon">
-            <img src="img/Card-1-Icon.svg" alt="icon" />
-          </div>
-          <div class="text-content">
-            <h3>Sales Meeting</h3>
-            <p>10:30 AM 05 May 2020</p>
-          </div>
-          <div class="meeting-participan">
-            <span>KR</span>
-            <span>MJ</span>
-            <span>OI</span>
-            <span>+3</span>
-          </div>
-        </div>
-
-        <div class="card-2">
-          <div class="progres-icon">
-            <img src="img/Card-2-Progress.svg" alt="icon" />
-          </div>
-          <div class="text-content">
-            <h3>Uploading Document</h3>
-            <p>27,09/ 78,93 GB</p>
-          </div>
-        </div>
-
-        <div class="card-3">
-          <div class="save-icon">
-            <img src="img/Card-3-Icon.svg" alt="icon" />
-          </div>
-          <div class="text-content">
-            <h3>Message Saved</h3>
-            <p>You have successfully saved this message</p>
-          </div>
-        </div>
-
-        <div class="card-4">
-          <a href="#" class="notification">
-            <span>SB</span>
-            <span class="badge">3</span>
-          </a>
-          <div class="text-content">
-            <h3>Spencer Brooks</h3>
-            <span>3:08 PM</span>
-            <p>Have you seen the project requi…</p>
-          </div>
-        </div>
-
-        <div class="card-5">
-          <a href="#" class="notification">
-            <span>AS</span>
-            <span class="badge">2</span>
-          </a>
-          <div class="text-content">
-            <h3>Amy Smith</h3>
-            <span>5:18 PM</span>
-            <p>Could please call me now? It is i…</p>
-          </div>
-        </div>
-
-        <div class="card-6">
-          <div class="progres-icon">
-            <img src="img/Crad-6-Progress.svg" alt="icon" />
-          </div>
-          <div class="text-content">
-            <h3>6,02/ 7,98 GB</h3>
-          </div>
-        </div>
-
-        <div class="card-7">
-          <div class="messege-icon">
-            <img src="img/Card-7-Icon.svg" alt="icon" />
-          </div>
-        </div>
-
-        <div class="card-8">
-          <div class="document-icon">
-            <img src="img/Card-8-Icon.svg" alt="icon" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--end taks vindy-->
+      <!-- close container -->
+    </div>
+    <!-- close landing-page -->
   </body>
 </html>
