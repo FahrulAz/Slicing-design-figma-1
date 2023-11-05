@@ -748,24 +748,27 @@ div .col-2 {
   /* position: relative; */
 }
 
-.product-text-center .text-content{
-    text-align: center;
+.product-text-center .top-text-content {
+  text-align: center;
+  width: 723px;
+  height: 133px;
+  margin-left: 259px;
 }
-.product-text-center .text-content h2{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
+.product-text-center .top-text-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
 }
-.product-text-center .text-content .body-text{
-    font-family: Nunito;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    position: relative;
-    left: 408px;
-    width: 425px;
-
+.product-text-center .top-text-content .body-text {
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  position: relative;
+  left: 149px;
+  top: 25px;
+  width: 425px;
 }
 /* .product-text-center .main-title {
   width: 723px;
@@ -1172,7 +1175,7 @@ div .col-2 {
 .product-text-center .card-5 ::shadow {
   width: 350px;
   height: 100px;
-  top: 263x;
+  top: 263px;
   left: 583px;
   opacity: 5%;
   background: linear-gradient(34.55deg, #234cad 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
