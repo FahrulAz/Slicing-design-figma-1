@@ -17,6 +17,7 @@
 body {
   font-family: var(--font-style);
   color: var(--font-color);
+  background-color: var(--bg-white);
 }
 
 .landing-page {
@@ -53,6 +54,7 @@ a svg {
   font-weight: 600;
 }
 .nav-btn button {
+  cursor: pointer;
   width: 135px;
   height: 50px;
   color: var(--font-color);
@@ -1401,6 +1403,7 @@ div .col-2 {
 }
 
 .hero-button {
+  cursor: pointer;
   display: flex;
   width: 200px;
   height: 65px;
@@ -1630,6 +1633,9 @@ div .col-2 {
   color: var(--color-1);
   margin-top: 15px;
 }
+.pricing button {
+  cursor: pointer;
+}
 .btn-plan-1 {
   width: 274px;
   height: 75px;
@@ -1660,9 +1666,9 @@ div .col-2 {
   width: 1240px;
   height: 383px;
   position: relative;
-  background-color: var(--bg-color);
   border-radius: 60px;
   margin-top: 150px;
+  background-color: var(--bg-color);
 }
 .contact-content {
   width: 100%;
@@ -1695,23 +1701,26 @@ div .col-2 {
   position: absolute;
 }
 .email-form .submit-icon {
+  cursor: pointer;
   right: 10px;
   bottom: 4px;
   position: absolute;
 }
 .email-form input {
-  width: 100%;
+  padding-left: 25px;
+  width: 475px; /* -25 from padding-left */
   height: 100%;
-  border: none;
-  border-radius: 20px;
-}
-.email-form input::placeholder {
-  color: var(--font-color);
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
-  padding: 0 25px;
+  border: none;
+  border-radius: 20px;
+  color: var(--font-color);
+  background-color: var(--bg-white);
+}
+.email-form input::placeholder {
   opacity: 50%;
+  color: var(--font-color);
 }
 
 /* Footer */
@@ -1746,10 +1755,10 @@ div .col-2 {
   margin-top: 23px;
 }
 .footer a {
-  color: var(--font-color);
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
   display: block;
   margin-top: 13px;
+  color: var(--font-color);
 }
